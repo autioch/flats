@@ -1,0 +1,21 @@
+html, body, canvas {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  display: block;
+  background: #fff;
+  overflow: hidden;
+  font-family: Verdana, Arial;
+}
+
+
+#coords {
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 4px #666;
+  padding: 4px;
+  top: 0;
+  left: 0;
+}
