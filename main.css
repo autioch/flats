@@ -5,17 +5,23 @@ html, body, canvas {
   border: 0;
   margin: 0;
   display: block;
-  background: #fff;
   overflow: hidden;
   font-family: Verdana, Arial;
+  position: relative;
 }
-
 
 #coords {
   position: absolute;
   background: #fff;
   box-shadow: 0 0 4px #666;
   padding: 4px;
+  top: 0;
+  left: 0;
+}
+
+#bgImg {
+  opacity: .5;
+  position: absolute;
   top: 0;
   left: 0;
 }
